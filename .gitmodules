@@ -1,3 +1,6 @@
 [submodule "emacs-rails-reloaded"]
 	path = emacs-rails-reloaded
 	url = git@github.com:fkchang/emacs-rails-reloaded.git
+[submodule "yasnippets-rails"]
+	path = yasnippets-rails
+	url = git://github.com/eschulte/yasnippets-rails.git
