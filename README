@@ -1,0 +1,21 @@
+These are customizations meant to fit into the emacs-starter-kit.  
+
+Files
+
+init.el:                Changes to phil's init.el defaults from the starter kit
+customized-elpa.el:     Additional ELPA modules
+ruby.el:                Ruby customized-elpa.el
+osx.el:                 Mac customizations
+
+This assumes emacs 23+
+
+How to install
+
+First clone emacs-starter-kit from git://github.com/technomancy/emacs-starter-kit.git.
+After that in ~/.emacs.d create folder with your user name and clone this repository, do
+
+git submodule init
+
+and 
+
+git submodule update
