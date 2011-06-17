@@ -6,10 +6,20 @@ init.el:                Changes to phil's init.el defaults from the starter kit
 customized-elpa.el:     Additional ELPA modules
 ruby.el:                Ruby customized-elpa.el
 osx.el:                 Mac customizations
+setup.bash              A bash script that makes backups of your existing .emacs/.emacs.d
+                        and then clones and inits the appropriate stuff.  It tries to 
+                        be reasonably smart.
+
 
 This assumes emacs 23+
 
-How to install
+How to install:
+
+AUTOMATED (you might want to read the script 1st):
+
+./setup.bash
+
+MANUAL:
 
 First clone emacs-starter-kit from git://github.com/technomancy/emacs-starter-kit.git.
 After that in ~/.emacs.d create folder with your user name and clone this repository, do
