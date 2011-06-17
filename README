@@ -29,3 +29,8 @@ git submodule init
 and 
 
 git submodule update
+
+# get the most recent emacs-rails-reloaded
+cd emacs-rails-reloaded
+git checkout master
+git pull
