@@ -8,10 +8,10 @@
 
 
 ;; Emacs rails reloaded
-(setq load-path (cons (expand-file-name "~/.emacs.d/emacs-rails-reloaded") load-path))
+(add-to-list 'load-path (concat user-specific-dir "/emacs-rails-reloaded"))
+
 (require 'rails-autoload)
 ;; rvm
-(setq load-path (cons (expand-file-name "~/.emacs.d/rvm") load-path))
 (require 'rvm)
 (rvm-use-default)
 
@@ -20,7 +20,7 @@
 (yas/initialize)
 (yas/load-directory
  (concat (file-name-directory (or load-file-name buffer-file-name))
-   "fo/yasnippets-rails/rails-snippets/"))
+   "yasnippets-rails/rails-snippets/"))
 
 (defun ruby-run-buffer ()
   (interactive)

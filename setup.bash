@@ -1,6 +1,6 @@
 #!/bin/bash
 # setup.sh - sets up emacs customizations for
-# git@github.com:fkchang/Emacs-customizations.git 
+# git://github.com/fkchang/Emacs-customizations.git
 # this will take the existing .emacs and .emacs.d and copy them to a
 # different location and will setup an emacs-starter-kit based version
 
@@ -34,7 +34,7 @@ cd $dir
 git clone git://github.com/technomancy/emacs-starter-kit.git
 cd emacs-starter-kit
 echo "Setting up emacs customizations"
-git clone git@github.com:fkchang/Emacs-customizations.git $USER
+git clone git://github.com/fkchang/Emacs-customizations.git $USER
 cd $USER
 git submodule init
 git submodule update
