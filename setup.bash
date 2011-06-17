@@ -39,6 +39,10 @@ cd $USER
 git submodule init
 git submodule update
 
+cd emacs-rails-reloaded
+git checkout master
+git pull
+
 
 
 echo "Linking files"
