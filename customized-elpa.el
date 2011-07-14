@@ -6,6 +6,8 @@
                               'haml-mode
                               'sass-mode
                               'mode-compile
+                              'anything
+                              'anything-config
                               'rspec-mode
                               'rvm
                               )
