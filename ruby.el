@@ -26,4 +26,9 @@
   (interactive)
   "Stubbed out for compile mode coz using cygwin emacs and windows ruby"
   (compile (concat "ruby " (file-name-nondirectory (buffer-file-name)))))
-(add-hook 'ruby-mode-hook (lambda () (local-set-key "\C-cc" 'ruby-run-buffer)))
+                                        ; TODO This conflicts with
+                                        ; emacs-rails-reloaded fix it
+                                        ; (add-hook 'ruby-mode-hook (lambda () (local-set-key "\C-cc"
+                                        ;'ruby-run-buffer))
+)
+
